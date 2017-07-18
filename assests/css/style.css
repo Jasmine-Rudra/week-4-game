@@ -1,0 +1,53 @@
+body{
+	
+}
+.container{
+	background-image: url("back-1.jpg");
+	width:100%;
+	
+}
+.imga{
+	height:150px;
+	width:150px;
+}
+h1{
+	background-color: orange;
+	text-align: center;
+	padding:10px;
+	margin:0;
+}
+.instructions{
+	background-color: beige;
+	padding:20px 0px;
+	margin:0;
+}
+.container2{
+	width:100%;
+	float: left;
+}
+.randomNumber{
+	height:150px;
+	width:50%;
+	float:left;
+	background-color: salmon;
+}
+#scoreToReach{
+	font-size: 24px;
+	padding:auto;
+}
+.score{
+	height:150px;
+	width:50%;
+	float:left;
+	background-color: green;
+}
+
+.crystals{
+
+	width:100%;
+	text-align: center;
+}
+.totalscore{
+	background-color: lightblue;
+	height:100px;
+}

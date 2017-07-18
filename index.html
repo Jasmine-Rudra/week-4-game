@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link type="text/css" rel="stylesheet" href="assests/css/style.css">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="assests/javascript/game.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Crystals Collector!</h1>
+		<div class="instructions">
+			<p>You will be given a random number at the start of the game</p>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>You will win the game by matching your total score to random number, you lise the game if your total goes above the random number.</p>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<p>Each time when the game starts, the game will change the values of each crystal</p>
+		</div>
+		<div class="container2">
+			<div class="randomNumber">
+				<span id="scoreToReach"></span>
+			</div>
+			<div class="score">
+				<p><span id="message"></span></p>
+				<p>Wins: <span id="win"></span></p>
+				<p>Losses: <span id="loss"></span></p>
+			</div>
+		</div>
+		<div class="crystals">
+			<img class="imga" id="img1" src="red.jpg">
+			<img class="imga" id="img2" src="green.png">
+			<img class="imga" id="img3" src="blue.jpeg">
+			<img class="imga" id="img4" src="yellow.jpg">
+		</div>
+		<div class="totalscore">
+			<p>Your total score is:</p>
+			<p><span id="addScore"></span></p> 
+		</div>
+	</div>
+</body>
+</html>
